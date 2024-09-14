@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basic Example to Describe JavaScript</title>
+  </head>
+
+  <body>
+    <!-- JavaScript code can be embedded inside
+        head section or body section -->
+    <script>
+      // FUNCTIONS
+
+      function myFunction(a, b) {
+        return a * b; // Function returns the product of a and b
+      }
+      let b = myFunction(4, 3); // Function is called, return value will end up in x
+      // console.log(x);
+
+      //   function myFunction(a, b) {
+      //     return a * b;             // Function returns the product of a and b
+      //   }
+
+      // let num = true;
+
+      let x = 10;
+      console.log(typeof x);
+
+      const str = x.toString();
+      console.log(typeof str);
+
+      // console.log(num);
+      // console.log(str);
+      // console.log(typeof str);
+      // console.log(typeof num);
+
+      // STRING METHODS
+      // Slice out a portion of a string from position 7 to position 13 (13 not included):
+
+      // let str = "Geeks, For, Geeks";
+      // console.log(str.length)
+      // let part = str.slice(7, 13);
+      // console.log(part);
+
+      // substring
+      //      slice vs substring
+
+      // let str = "This is GeeksForGeeks";
+      // // console.log("Str = '" + str + "'");
+
+      // Function to display output difference
+      // function Geeks() {
+      //   console.log("str.slice() = " + str.slice(13, 0));
+      //   console.log("str.substring() = " + str.substring(13, 0));
+      // }
+
+      // Geeks();
+      // Str = 'This is GeeksForGeeks'
+      // str.slice() =
+      // str.substring() = This is Geeks
+
+      //    substr
+      // let text = "Hello world!";
+      // let result = text.substr(1, 4);
+      // console.log(result);
+      // ello
+
+      // console.log(part);
+      // console.log(str.charAt(0));
+      // toUpperCase(), toLowerCase(), concat(), trim(), charAt();
+
+      // const arr = ["b", "c", "a", "z"];
+      // const arr2 = ["x", "y"];
+      // const newArray = arr.concat(arr2);
+      // console.log(newArray);
+
+      /** Arrays
+       * .length
+       * Accessing via index
+       * Adding via push
+       * pop
+       * concat (returns a new array)
+       * const arr = ["b","c","a","z"]
+       */
+
+      const students = {
+        name: "test",
+        age: 20,
+      };
+
+      console.log(students.name);
+
+      // const arr = ["b", "c", "a", "z"];
+      // console.log(arr.length);
+    </script>
+  </body>
+</html>
